@@ -1,0 +1,20 @@
+#include <stdio.h>
+/* Find the mid number of three numbers */
+int main()
+              {
+              	int a, b, c;
+              	scanf ("%d %d %d", &a, &b, &c);
+              	/* check if 'a' is middle */
+              	if (((a>b) && (a<c)) || ((a<b) && (a>c))) /*composite condition check */
+              	printf ("\n mid number is %d", a);
+              	/* check if 'b' is middle */
+                 else
+                         if (((b>a) && (b<c)) || ((b<a) && (b>c))) /* composite condition check */
+                                 printf ("\n mid number is %d", b);
+                    /* if neither 'a' nor 'b' is middle, then 'c' is middle */
+                    else
+                    printf ("\n mid number is %d", c);            
+                 return 0;                
+}                                      
+                              
+              	
