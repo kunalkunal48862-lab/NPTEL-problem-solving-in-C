@@ -1,0 +1,17 @@
+                                                        #include <stdio.h>
+/* Find the smallest of three numbers */
+int main()
+               {   
+	               int a, b, c;	                                             scanf ("%d %d %d", &a, &b, &c);
+	               if ((a<b) && (a<c)) /* composite condition check */
+	                  printf ("\n smallest is %d", a);
+	              else 
+	                       if (b<c) /* simple condition check */
+	                           printf ("\n smallest is %d", b);   
+	        
+	                      else
+	                              printf ("\n smallest is %d", c);
+	                   return 0;           
+}
+                              
+	          	       	
