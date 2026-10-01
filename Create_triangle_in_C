@@ -1,0 +1,12 @@
+#include <stdio.h>
+/* create the triangle of three sides*/int main()
+              {
+              	int a, b, c;
+              	scanf ("%d %d %d", &a, &b, &c);
+              	if ((a+b>c) && (a+c>b) &&(b+c>a)) /* composite condition check */
+              	     printf ("\n triangle is valid");
+                  else
+                  	   printf ("\n triangle is not valid");
+              return 0;	     
+}              	     
+              	     
