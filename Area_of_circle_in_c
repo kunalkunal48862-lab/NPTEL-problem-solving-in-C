@@ -1,0 +1,14 @@
+#include <stdio.h>
+/* function to calculatearea of circle */
+float calculate_area (float pi, int radius) {
+	return (pi*radius*radius);
+}
+int main ()
+            { float pi;
+            int r;
+            printf ("Enter pi and radius: ");
+            scanf ("%f %d", &pi, &r);
+            float area = calculate_area(pi,r);
+            printf("%f is the area of circle",area);
+            return 0;
+}
